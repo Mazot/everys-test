@@ -1,0 +1,54 @@
+@import '../../theme';
+
+.searchBar_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+
+  @media only screen and (max-width: $mobile-width) {
+    width: calc(100% - 20px);
+    flex-direction: column;
+    background-color: $primary-background-color;
+    border-radius: 4px;
+    margin: 10px;
+  }
+}
+
+.searchBar_input_side_container {
+  display: flex;
+  justify-content: flex-start;
+
+  @media only screen and (max-width: $mobile-width) {
+    width: calc(100% - 10px);
+    padding-top: 8px;
+  }
+}
+
+.searchBar_textInput_container {
+  width: 300px;
+
+  @media only screen and (max-width: $mobile-width) {
+    width: 100%;
+  }
+}
+
+.searchBar_countInput_container {
+  width: 60px;
+}
+
+.searchBar_button_container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-self: flex-end;
+  justify-content: space-between;
+
+  @media only screen and (max-width: $mobile-width) {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: calc(100% - 10px);
+  }
+}

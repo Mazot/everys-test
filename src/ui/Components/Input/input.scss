@@ -1,0 +1,19 @@
+@import '../../theme';
+
+.input_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input_title {
+  font-weight: bold;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.input {
+  padding: 6px;
+  background: $input-background-color;
+  border-radius: 4px;
+  border: 1px solid #e3e3e3;
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+    ],
+    "allowJs": true,
+    // "strict": true,
+    "jsx": "react"
+  },
+  "include": [
+    "src"
+  ]
+}

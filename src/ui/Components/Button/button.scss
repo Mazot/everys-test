@@ -1,0 +1,31 @@
+@import '../../theme';
+
+.button_container {
+  width: fit-content;
+  align-self: center;
+}
+
+.button {
+  background-color: $primary-button-color;
+  color: #fff;
+  padding: 10px 20px 10px 20px;
+  border-radius: 4px;
+  border-width: 0;
+  display: block;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($color: $primary-button-color, $amount: 10);
+  }
+
+  &:active {
+    background-color: darken($color: $primary-button-color, $amount: 20);
+  }
+
+  &:disabled {
+    background-color: $primary-background-color;
+    color: darken($color: $primary-background-color, $amount: 30);
+    cursor: not-allowed;
+  }
+}
+

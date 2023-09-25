@@ -1,0 +1,30 @@
+@import '../../theme';
+
+.table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  text-align: left;
+  width: 100%;
+  word-wrap: break-word;
+
+  & > thead {
+    font-size: medium;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+  }
+
+  th {
+    padding: 12px 8px 12px 8px;
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  td {
+    padding: 8px;
+    vertical-align: middle;
+  }
+
+  tr:hover {
+    background-color: $primary-background-color;
+  }
+}

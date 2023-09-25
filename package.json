@@ -1,0 +1,37 @@
+{
+  "name": "everys-test",
+  "version": "0.0.1",
+  "description": "everys test ",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack serve --open --config ./configs/webpack.config.js",
+    "build": "webpack --config ./configs/webpack.config.js"
+  },
+  "author": "Roma Oganesyan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "@types/webpack": "^5.28.2",
+    "autoprefixer": "^10.4.16",
+    "css-loader": "^6.8.1",
+    "cssnano": "^6.0.1",
+    "dotenv": "^16.3.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss-loader": "^7.3.3",
+    "sass": "^1.68.0",
+    "sass-loader": "^13.3.2",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "effector": "^22.8.6",
+    "effector-react": "^22.5.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tslib": "^2.6.2"
+  }
+}

@@ -1,0 +1,30 @@
+@import '../../theme';
+
+.pageSection_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  @media only screen and (max-width: $mobile-width) {
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction: column;
+    background-color: $mobile-background-color;
+    padding-bottom: unset;
+  }
+}
+
+.pageSection_buttons_container {
+  display: flex;
+  gap: 10px;
+
+  @media only screen and (max-width: $mobile-width) {
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+}

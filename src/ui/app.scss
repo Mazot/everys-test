@@ -1,0 +1,13 @@
+@use 'reset';
+@import 'theme';
+
+html, body {
+  font-family: Arial, Helvetica, Helvetica Neue, FreeSans, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
