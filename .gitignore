@@ -4,6 +4,8 @@
 .cache
 npm-debug.log
 node_modules/
-dist/
+dist/*
 yarn.lock
 .env
+
+!dist/index.html
