@@ -19,7 +19,7 @@ export const PageSection: React.FC<IPageSectionProps> = (props) => {
         <Button 
           title='Предыдущая'
           disabled={props.selectedPageNumber === 1}
-          onClick={props.selectedPageNumber === 1 ? props.onPrevClick : null} 
+          onClick={props.selectedPageNumber !== 1 ? props.onPrevClick : null} 
         />
         <Button 
           title='Следующая'
